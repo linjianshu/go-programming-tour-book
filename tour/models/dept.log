@@ -1,0 +1,14 @@
+type Dept struct {
+    // id 
+	  Id	int32 `json:"id"` 
+    // deptno 
+	  Deptno	int64 `json:"deptno"` 
+    // dname 
+	  Dname	string `json:"dname"` 
+    // loc 
+	  Loc	string `json:"loc"` 
+}
+
+func (model Dept) TableName() string {
+	return "dept"
+}

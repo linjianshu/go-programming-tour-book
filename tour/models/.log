@@ -1,0 +1,6 @@
+type  struct {
+}
+
+func (model ) TableName() string {
+	return ""
+}

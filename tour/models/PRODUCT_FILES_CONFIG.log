@@ -1,0 +1,78 @@
+type PRODUCT_FILES_CONFIG struct {
+    //创建人key 
+	  CREATEUSERID	string `json:"CREATEUSERID"` 
+    //创建人姓名 
+	  CREATEUSERNAME	string `json:"CREATEUSERNAME"` 
+    //主键 
+	  RECORD_KEY	string `json:"RECORD_KEY"` 
+    //公司key 
+	  SITE_KEY	string `json:"SITE_KEY"` 
+    //公司编号 
+	  SITE_CODE	string `json:"SITE_CODE"` 
+    //公司名称 
+	  SITE_NAME	string `json:"SITE_NAME"` 
+    //工厂key 
+	  AREA_KEY	string `json:"AREA_KEY"` 
+    //工厂编号 
+	  AREA_CODE	string `json:"AREA_CODE"` 
+    //工厂名称 
+	  AREA_NAME	string `json:"AREA_NAME"` 
+    //车间key 
+	  WORKSHOP_KEY	string `json:"WORKSHOP_KEY"` 
+    //车间编号 
+	  WORKSHOP_CODE	string `json:"WORKSHOP_CODE"` 
+    //车间名称 
+	  WORKSHOP_NAME	string `json:"WORKSHOP_NAME"` 
+    //加工中心key 
+	  MACHINING_CENTER_KEY	string `json:"MACHINING_CENTER_KEY"` 
+    //加工中心编号 
+	  MACHINING_CENTER_CODE	string `json:"MACHINING_CENTER_CODE"` 
+    //加工中心名称 
+	  MACHINING_CENTER_NAME	string `json:"MACHINING_CENTER_NAME"` 
+    //产线key 
+	  PRODUCTION_LINE_KEY	string `json:"PRODUCTION_LINE_KEY"` 
+    //产线编号 
+	  PRODUCTION_LINE_CODE	string `json:"PRODUCTION_LINE_CODE"` 
+    //产线名称 
+	  PRODUCTION_LINE_NAME	string `json:"PRODUCTION_LINE_NAME"` 
+    //工作中心key 
+	  WORK_CENTER_KEY	string `json:"WORK_CENTER_KEY"` 
+    //工作中心编号 
+	  WORK_CENTER_CODE	string `json:"WORK_CENTER_CODE"` 
+    //工作中心名称 
+	  WORK_CENTER_NAME	string `json:"WORK_CENTER_NAME"` 
+    //工位key 
+	  STATION_KEY	string `json:"STATION_KEY"` 
+    //工位编号 
+	  STATION_CODE	string `json:"STATION_CODE"` 
+    //工位名称 
+	  STATION_NAME	string `json:"STATION_NAME"` 
+    //产品key 
+	  PRODUCT_KEY	string `json:"PRODUCT_KEY"` 
+    //产品编号 
+	  PRODUCT_NAME	string `json:"PRODUCT_NAME"` 
+    //产品名称 
+	  PRODUCT_CODE	string `json:"PRODUCT_CODE"` 
+    //文件key 
+	  DOCUMENT_KEY	string `json:"DOCUMENT_KEY"` 
+    //文件编号 
+	  DOCUMENT_CODE	string `json:"DOCUMENT_CODE"` 
+    //文件名称 
+	  DOCUMENT_NAME	string `json:"DOCUMENT_NAME"` 
+    //预留字段1 
+	  RESERVE1	string `json:"RESERVE1"` 
+    //预留字段2 
+	  RESERVE2	string `json:"RESERVE2"` 
+    //预留字段3 
+	  RESERVE3	string `json:"RESERVE3"` 
+    //预留字段4 
+	  RESERVE4	string `json:"RESERVE4"` 
+    //预留字段5 
+	  RESERVE5	string `json:"RESERVE5"` 
+    //创建时间 
+	  CREATEDATE	time.Time `json:"CREATEDATE"` 
+}
+
+func (model PRODUCT_FILES_CONFIG) TableName() string {
+	return "PRODUCT_FILES_CONFIG"
+}

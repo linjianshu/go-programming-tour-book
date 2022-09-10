@@ -1,0 +1,52 @@
+type PROCESS_FILES struct {
+    //预留字段2 
+	  RESERVE2	string `json:"RESERVE2"` 
+    //预留字段3 
+	  RESERVE3	string `json:"RESERVE3"` 
+    //预留字段4 
+	  RESERVE4	string `json:"RESERVE4"` 
+    //预留字段5 
+	  RESERVE5	string `json:"RESERVE5"` 
+    //创建时间 
+	  CREATEDATE	time.Time `json:"CREATEDATE"` 
+    //创建人key 
+	  CREATEUSERID	string `json:"CREATEUSERID"` 
+    //创建人姓名 
+	  CREATEUSERNAME	string `json:"CREATEUSERNAME"` 
+    //修改时间 
+	  MODIFYDATE	time.Time `json:"MODIFYDATE"` 
+    //修改人key 
+	  MODIFYUSERID	string `json:"MODIFYUSERID"` 
+    //修改人姓名 
+	  MODIFYUSERNAME	string `json:"MODIFYUSERNAME"` 
+    //文件主键 
+	  DOCUMENT_KEY	string `json:"DOCUMENT_KEY"` 
+    //文件编号 
+	  DOCUMENT_CODE	string `json:"DOCUMENT_CODE"` 
+    //文件名称 
+	  DOCUMENT_NAME	string `json:"DOCUMENT_NAME"` 
+    //文件类型 
+	  DOCUMENT_TYPE	string `json:"DOCUMENT_TYPE"` 
+    //文件版本 
+	  DOCUMENT_EDITION	string `json:"DOCUMENT_EDITION"` 
+    //文件大小 
+	  DOCUMENT_SIZE	string `json:"DOCUMENT_SIZE"` 
+    //文件存储路径 
+	  DOCUMENT_STORAGE_PATH	string `json:"DOCUMENT_STORAGE_PATH"` 
+    //文件存储系统名称 
+	  DOCUMENT_STORAGE_NAME	string `json:"DOCUMENT_STORAGE_NAME"` 
+    //文件MD5值 
+	  DOCUMENT_MD5	string `json:"DOCUMENT_MD5"` 
+    //更新PCIP地址 
+	  UPLOAD_PC_IP	string `json:"UPLOAD_PC_IP"` 
+    //更新PC名称 
+	  UPLOAD_PC_NAME	string `json:"UPLOAD_PC_NAME"` 
+    //备注 
+	  REMARKS	string `json:"REMARKS"` 
+    //预留字段1 
+	  RESERVE1	string `json:"RESERVE1"` 
+}
+
+func (model PROCESS_FILES) TableName() string {
+	return "PROCESS_FILES"
+}

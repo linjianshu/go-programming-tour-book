@@ -1,0 +1,54 @@
+type AREA struct {
+    //预留1 
+	  RESERVE01	string `json:"RESERVE01"` 
+    //预留2 
+	  RESERVE02	string `json:"RESERVE02"` 
+    //预留3 
+	  RESERVE03	string `json:"RESERVE03"` 
+    //预留4 
+	  RESERVE04	string `json:"RESERVE04"` 
+    //预留5 
+	  RESERVE05	string `json:"RESERVE05"` 
+    //预留6 
+	  RESERVE06	string `json:"RESERVE06"` 
+    //预留7 
+	  RESERVE07	string `json:"RESERVE07"` 
+    //预留8 
+	  RESERVE08	string `json:"RESERVE08"` 
+    //预留9 
+	  RESERVE09	string `json:"RESERVE09"` 
+    //预留10 
+	  RESERVE10	string `json:"RESERVE10"` 
+    //工厂主键 
+	  AREAKEY	string `json:"AREA_KEY"` 
+    //公司主键 
+	  SITEKEY	string `json:"SITE_KEY"` 
+    //工厂编号 
+	  AREACODE	string `json:"AREA_CODE"` 
+    //工厂名称 
+	  AREANAME	string `json:"AREA_NAME"` 
+    //工厂描述 
+	  AREADESCRIPTION	string `json:"AREA_DESCRIPTION"` 
+    //工厂类型 
+	  AREATYPE	string `json:"AREA_TYPE"` 
+    //关联图片主键 
+	  INSTLISTKEY	string `json:"INST_LIST_KEY"` 
+    //删除标记 
+	  DELETEMARK	int64 `json:"DELETEMARK"` 
+    //创建日期 
+	  CREATEDATE	time.Time `json:"CREATEDATE"` 
+    //创建人ID 
+	  CREATEUSERID	string `json:"CREATEUSERID"` 
+    //创建人ID 
+	  CREATEUSERNAME	string `json:"CREATEUSERNAME"` 
+    //修改日期 
+	  MODIFYDATE	time.Time `json:"MODIFYDATE"` 
+    //修改人ID 
+	  MODIFYUSERID	string `json:"MODIFYUSERID"` 
+    //修改人姓名 
+	  MODIFYUSERNAME	string `json:"MODIFYUSERNAME"` 
+}
+
+func (model AREA) TableName() string {
+	return "AREA"
+}

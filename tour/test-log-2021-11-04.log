@@ -1,0 +1,6 @@
+{"level":"info","ts":1635987185.8280368,"caller":"zap/test.go:51","msg":"go run main.go sql struct --username JACMES --password hfutIE2019 --db JACMES --host 10.4.5.102:1521 --serviceName ORCL --table P_PRODUCTS_STORAGE --type oci8 -z 1"}
+{"level":"info","ts":1635987185.8280368,"caller":"zap/test.go:51","msg":"输出结果 : 请查看models文件夹! "}
+{"level":"info","ts":1635992229.7909307,"caller":"zap/test.go:51","msg":"go run main.go sql struct --username JACMES --password hfutIE2019 --db JACMES --host 10.4.5.102:1521 --serviceName ORCL --table PROCESS_FILES --type oci8 -z 1"}
+{"level":"info","ts":1635992229.7909307,"caller":"zap/test.go:51","msg":"输出结果 : 请查看models文件夹! "}
+{"level":"info","ts":1635992311.1494553,"caller":"zap/test.go:51","msg":"go run main.go sql struct --username JACMES --password hfutIE2019 --db JACMES --host 10.4.5.102:1521 --serviceName ORCL --table PRODUCT_FILES_CONFIG --type oci8 -z 1"}
+{"level":"info","ts":1635992311.1494553,"caller":"zap/test.go:51","msg":"输出结果 : 请查看models文件夹! "}
